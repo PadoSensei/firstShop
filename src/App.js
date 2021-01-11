@@ -2,7 +2,7 @@ import React, {useState, useEffect }from 'react';
 import Products from './components/Products/Products';
 import Navbar from './components/Navbar/Navbar';
 import Cart from './components/Cart/Cart'
-// import { Products, Navbar, Cart } from './components' 
+import Checkout from './components/Checkout/Checkout'
 import { commerce } from './lib/commerce';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -73,7 +73,7 @@ const App = () => {
             />
           </Route>
           <Route exact path="/checkout">
-            
+            <Checkout /> 
           </Route>
         </Switch>
       </div>
