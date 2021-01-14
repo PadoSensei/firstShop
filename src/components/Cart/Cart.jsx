@@ -6,10 +6,9 @@ import CardItem from './CartItem/CartItem'
 import useStyles from './styles'
 
 const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart }) => {
-  // const isEmpty = !cart.line_items.length
   const classes = useStyles();
 
-  // const handleEmptyCart = () => onEmptyCart();
+  
 
   const renderEmptyCart = () => (
     <Typography variant="subtitle1">You have no items in your shopping cart,

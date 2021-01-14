@@ -6,7 +6,7 @@ import Checkout from './components/Checkout/Checkout'
 import { commerce } from './lib/commerce';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-//import { Products, Navbar } from './components'
+
 
 const App = () => {
 
